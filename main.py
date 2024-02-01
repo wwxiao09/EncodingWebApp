@@ -7,6 +7,8 @@ from cryptography.hazmat.primitives import padding
 from base64 import b64encode, b64decode
 import hashlib
 import re
+import base64
+import openpyxl
 
 # Encryption
 def encrypt_message(key, message):
